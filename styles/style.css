@@ -1,0 +1,25 @@
+.parent {
+	height: 300px;
+	width: 300px;
+	background-color: lightpink;
+	position: relative;
+
+	opacity: 0.3;
+}
+
+.child {
+	height: 100px;
+	width: 100px;
+	background-color: red;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	transition: 2s linear;
+}
+
+.child:hover {
+	background-color: purple;
+	border-radius: 50%;
+}
+
